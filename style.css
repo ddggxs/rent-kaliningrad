@@ -2561,6 +2561,36 @@ a.contact-value:hover {
     font-size: 0.9rem;
   }
 
+  /* ---- Finder (подбор) ---- */
+  .finder-card {
+    flex-direction: column;
+    padding: 24px 20px;
+    gap: 20px;
+  }
+  .finder-icon {
+    display: none;
+  }
+  .finder-title {
+    font-size: 1.3rem;
+  }
+  .finder-desc {
+    font-size: 0.9rem;
+  }
+  .finder-features {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .finder-feature {
+    font-size: 0.85rem;
+  }
+  .finder-actions {
+    flex-direction: column;
+  }
+  .finder-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
   /* ---- Contact ---- */
   .contact-info--centered {
     grid-template-columns: 1fr;
