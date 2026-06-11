@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /backup/
+
+Sitemap: https://rent-kaliningrad.ru/sitemap.xml
+
+Host: rent-kaliningrad.ru
